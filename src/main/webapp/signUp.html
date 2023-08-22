@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<link rel="stylesheet" href="./SignUp.css">
+	<title>Insert title here</title>
+</head>
+
+<body>
+	<nav id="ab">
+		<fieldset id="ab2">
+			<legend style="text-align: center;">
+				<center>Sign_Up_Here</center>
+			</legend>
+			<h1><b>Enter Your Details Here...:)</b></h1>
+			<form id="ab1" action="signup" enctype="multipart/form-data" method="post">
+
+				<table>
+
+					<tr>
+						<td><label for="frst">User Name:</label>
+						</td>
+						<td><input type="text" name="user" id="frst" placeholder="Enter Name" required="max 20 char">
+						</td>
+					</tr>
+
+
+
+					<tr>
+						<td><label for="eml">Email:</label></td>
+						<td><input type="text" name="email" id="eml" required placeholder="Enter a valid mail"></td>
+					</tr>
+
+					<tr>
+						<td><label for="ph">Ph No:</label></td>
+						<td><input type="number" name="phno" id="eml" placeholder="Enter Phone no"></td>
+					</tr>
+
+					<tr>
+						<td><label for="pas">Password:</label></td>
+						<td><input type="password" name="pass" id="ab3" placeholder="Password"></td>
+					</tr>
+
+					<tr>
+						<td><label for="dob">DOB</label></td>
+						<td><input type="date" name="dob" id="dob"></td>
+					</tr>
+
+
+					<tr>
+						<td><label for="gen">GENDER</label></td>
+						<td>MALE<input type="radio" name="gender" id="gen" value="Male"> FEMALE<input type="radio"
+								name="gender" id="gen" value="Female"></td>
+					</tr>
+
+					<tr>
+						<td><label for="Picture">Picture:</label> </td>
+						<td><input type="file" name="picture" id="photo"></td>
+					</tr>
+
+					<tr>
+						<td><label for="coun">Country:</label></td>
+						<td><select name="country" id="coun">
+								<option value="op">select</option>
+								<option>India</option>
+							</select></td>
+					</tr>
+
+					<tr>
+						<td class="sub"><input type="submit" value="submit"> <input type="reset" value="reset"></td>
+					</tr>
+
+				</table>
+
+
+
+
+			</form>
+		</fieldset>
+	</nav>
+
+</body>
+
+</html>
